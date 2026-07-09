@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+/* For Reuse */
+.container-reuse{
+    padding: 80px 8%;
+}
 
 /* Navbar Section */
 .navbar-section {
@@ -80,4 +84,40 @@ header {
 .btn {
   margin-top: 210px;
   padding: 15px 45px;
+}
+
+
+/* speakers-heading */
+.speakers-heading{
+    text-align: center;
+    margin-bottom: 56px;
+    font-size: 30px;
+}
+
+.all-box-holder{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    
+}
+.box-contents{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.box-contents img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+#track{
+    padding: 10px 20px;
+    color: #1d4ed8;
+    font-weight: 700;
+}
+#name{
+    padding: 10px 20px;
+}
+#company{
+    padding: 5px 0px 25px 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
