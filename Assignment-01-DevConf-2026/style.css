@@ -4,7 +4,7 @@
 }
 /* For Reuse */
 .container-reuse{
-    padding: 80px 8%;
+    padding: 60px 8%;
 }
 
 /* Navbar Section */
@@ -121,3 +121,79 @@ header {
     font-size: 22px;
     letter-spacing: 1px;
 }
+
+/* Card Section */
+.cards-heading{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cards-heading h2{
+  margin-bottom: 15px;
+}
+.cards-heading p{
+  color: gray;
+}
+
+.cards{
+  border: 1px solid lightgray;
+  padding: 10%;
+  border-radius: 10px;
+}
+.all-card-section{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
+.card-head h2{
+  font-size: 40px;
+   margin: 10px 0px;
+}
+.card-head h4{
+  color: gray;
+}
+.card-head p{
+  font-size: 18px;
+  color: gray;
+  margin: 10px 0px;
+}
+.cards-list-items{
+  margin-top: 13px;
+}
+.cards-list-items ul li::marker{
+  color: #1d4ed8;
+}
+.cards-list-items ul li{
+  margin-top: 10px;
+}
+.price-btn{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #1d4ed8;
+  background-color: white;
+  color: black;
+  margin-top: 25px;
+  width: 100%;
+  cursor: pointer;
+}
+.price-btn:hover{
+  background-color: #1d4ed8;
+  color: white;
+}
+.card-2{
+  background-color: #0D1B2A;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+#card-2-pro{
+  color: #1d4ed8;
+}
+#card-2-btn{
+  background-color: #1d4ed8;
+  color: white;
+}
+#card-2-btn:hover{
+  background-color: white;
+  color: black;
+}
+
