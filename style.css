@@ -221,7 +221,7 @@ header {
   margin-bottom: 25px;
 }
 .cotainer-for-platinum-section {
-  padding: 30px 15%;
+  padding: 20px 15%;
 }
 .codeforge-box {
   padding: 20px 45px;
@@ -353,4 +353,38 @@ footer {
 .terms-links a {
   text-decoration: none;
   color: white;
+}
+
+/* Community Partners */
+.community-partners-heding {
+  text-align: center;
+  font-weight: bold;
+}
+.community-partners-heding span {
+  color: #1d4ed8;
+}
+
+/* All communities  */
+.all-community {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.individual-community {
+  padding: 30px 0px 0px 0px;
+}
+.community-partners-description {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.community-partners-description img {
+  height: 35px;
+  width: 35px;
+  object-fit: contain;
+}
+.community-details p {
+  color: rgb(139, 136, 136);
+  margin-top: 4px;
 }
