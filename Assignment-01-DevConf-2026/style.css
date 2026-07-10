@@ -264,6 +264,57 @@ header {
   width: 80%;
   font-weight: 400;
 }
+
+/* gold-sponsor-cards */
+.gold-sponsor-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.gold-sponsor-heading span{
+  color: #1d4ed8;
+}
+.gold-sponsor-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  align-items: stretch;
+}
+.gold-sponsor-cards-details{
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 25px 20px;
+  
+}
+.gold-sponsor-cards-details p{
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+.gold-sponsor-cards img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.gold-sponser-logo{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.color-nova{
+  color: #1d4ed8;
+}
+.color-stack{
+  color: #35A863;
+}
+.color-byte{
+  color: #FC5916;
+}
+.color-nextgen{
+  color: #4E2FEC;
+}
 /* Footer Secction */
 footer{
   background-color: #0D1B2A;
