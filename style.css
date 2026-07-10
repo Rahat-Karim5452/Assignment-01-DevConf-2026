@@ -3,10 +3,12 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
 /* For Reuse */
 .container-reuse {
-  padding: 40px 8%;
+  padding: 30px 8%;
 }
+
 /* Navbar Section */
 .navbar-section {
   padding: 15px 35px;
@@ -15,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .list-items ul {
   list-style: none;
   display: flex;
@@ -61,6 +64,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .banner-content {
   display: flex;
   flex-direction: column;
@@ -70,6 +74,7 @@ header {
   gap: 25px;
   color: white;
 }
+
 .banner-content p {
   width: 500px;
   color: white;
@@ -77,9 +82,11 @@ header {
   font-size: 18px;
   letter-spacing: 1px;
 }
+
 .banner-content h1 {
   font-size: 65px;
 }
+
 .btn {
   margin-top: 210px;
   padding: 15px 45px;
@@ -88,8 +95,10 @@ header {
 /* speakers-heading */
 .speakers-heading {
   text-align: center;
-  margin-bottom: 56px;
+  margin-top: 20px;
+  margin-bottom: 25px;
   font-size: 25px;
+  font-weight: 600;
 }
 
 .all-box-holder {
@@ -97,22 +106,27 @@ header {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+
 .box-contents {
   border: 1px solid lightgray;
   border-radius: 10px;
 }
+
 .box-contents img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
+
 #track {
   padding: 10px 20px;
   color: #1d4ed8;
   font-weight: 700;
 }
+
 #name {
   padding: 10px 20px;
 }
+
 #company {
   padding: 5px 0px 25px 20px;
   font-size: 22px;
@@ -125,10 +139,12 @@ header {
   text-align: center;
   margin-bottom: 15px;
 }
+
 .cards-heading h2 {
   font-size: 35px;
   margin-bottom: 15px;
 }
+
 .cards-heading p {
   color: gray;
 }
@@ -138,33 +154,41 @@ header {
   padding: 10%;
   border-radius: 10px;
 }
+
 .all-card-section {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
+
 .card-head h2 {
   font-size: 40px;
   margin: 10px 0px;
 }
+
 .card-head h4 {
   color: gray;
 }
+
 .card-head p {
   font-size: 18px;
   color: gray;
   margin: 10px 0px;
 }
+
 .cards-list-items {
   margin-top: 13px;
 }
+
 .cards-list-items ul li::marker {
   color: #1d4ed8;
 }
+
 .cards-list-items ul li {
   margin-top: 10px;
 }
+
 .price-btn {
   padding: 10px 20px;
   border-radius: 10px;
@@ -175,22 +199,27 @@ header {
   width: 100%;
   cursor: pointer;
 }
+
 .price-btn:hover {
   background-color: #1d4ed8;
   color: white;
 }
+
 .card-2 {
   background-color: #0d1b2a;
   color: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
+
 #card-2-pro {
   color: #1d4ed8;
 }
+
 #card-2-btn {
   background-color: #1d4ed8;
   color: white;
 }
+
 #card-2-btn:hover {
   background-color: white;
   color: black;
@@ -202,27 +231,33 @@ header {
   color: #1d4ed8;
   font-weight: bold;
 }
+
 .sponsor-heading {
   text-align: center;
   margin-top: 20px;
 }
+
 .sponsor-description {
   color: rgb(126, 120, 120);
   margin-top: 15px;
   text-align: center;
 }
+
 #highlight-devconf {
   color: #1d4ed8;
 }
+
 .platinum-sponsor {
   color: #1d4ed8;
   font-weight: bold;
   text-align: center;
   margin-bottom: 25px;
 }
+
 .cotainer-for-platinum-section {
   padding: 20px 15%;
 }
+
 .codeforge-box {
   padding: 20px 45px;
   display: flex;
@@ -233,25 +268,30 @@ header {
   border: 1px solid gray;
   background-color: rgba(232, 219, 219, 0.6);
 }
+
 .divider {
   width: 1px;
   height: 70px;
   background-color: gray;
 }
+
 .logo-codeforge {
   display: flex;
   gap: 20px;
   align-items: center;
   flex: 1;
 }
+
 .logo-codeforge img {
   height: 50px;
   width: 50px;
   object-fit: contain;
 }
+
 #codeforge {
   font-size: 30px;
 }
+
 .divider-description {
   display: flex;
   justify-content: center;
@@ -271,30 +311,36 @@ header {
   font-weight: bold;
   margin-bottom: 15px;
 }
+
 .gold-sponsor-heading span {
   color: #1d4ed8;
 }
+
 .gold-sponsor-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   align-items: stretch;
 }
+
 .gold-sponsor-cards-details {
   border: 1px solid lightgray;
   border-radius: 15px;
   padding: 25px 20px;
 }
+
 .gold-sponsor-cards-details p {
   margin-top: 15px;
   text-align: center;
   font-weight: 300;
 }
+
 .gold-sponsor-cards img {
   width: 32px;
   height: 32px;
   object-fit: contain;
 }
+
 .gold-sponser-logo {
   display: flex;
   gap: 10px;
@@ -302,32 +348,40 @@ header {
   text-align: center;
   align-items: center;
 }
+
 .color-nova {
   color: #1d4ed8;
 }
+
 .color-stack {
   color: #35a863;
 }
+
 .color-byte {
   color: #fc5916;
 }
+
 .color-nextgen {
   color: #4e2fec;
 }
+
 /* Footer Secction */
 footer {
   background-color: #0d1b2a;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
 }
+
 .social-links {
   display: flex;
   gap: 30px;
 }
+
 .social-links a {
   width: 40px;
   height: 40px;
@@ -342,14 +396,17 @@ footer {
   justify-content: space-between;
   margin-top: 30px;
 }
+
 .copyright {
   color: white;
 }
+
 .terms-links {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
+
 .terms-links a {
   text-decoration: none;
   color: white;
@@ -360,6 +417,7 @@ footer {
   text-align: center;
   font-weight: bold;
 }
+
 .community-partners-heding span {
   color: #1d4ed8;
 }
@@ -370,21 +428,54 @@ footer {
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
 }
+
 .individual-community {
   padding: 30px 0px 0px 0px;
 }
+
 .community-partners-description {
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
 }
+
 .community-partners-description img {
   height: 35px;
   width: 35px;
   object-fit: contain;
 }
+
 .community-details p {
   color: rgb(139, 136, 136);
   margin-top: 4px;
+}
+
+.btn-sponser {
+  background-color: #0d1b2a;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.btn-sponser img {
+  width: 100px;
+  height: 60px;
+}
+.spn-btn {
+  width: 250px;
+  border-style: none;
+  background: linear-gradient(135deg, #003d4d, #00c996);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+#btn-box-description {
+  margin-top: 10px;
+  font-weight: 200;
 }
